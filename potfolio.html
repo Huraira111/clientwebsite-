@@ -1,0 +1,1791 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Hafiz Aqib Sattar | Media Researcher & Communications Scholar</title>
+<meta name="description" content="Hafiz Aqib Sattar — Research-driven media and communication professional focused on digital media, AI, and public discourse. Research Assistant at Norfolk State University." />
+<meta name="keywords" content="Hafiz Aqib Sattar, media researcher, digital media, AI journalism, Norfolk State University, communications scholar" />
+<meta property="og:title" content="Hafiz Aqib Sattar | Media Researcher" />
+<meta property="og:description" content="Research-driven media and communication professional focused on digital media, AI, and public discourse." />
+<meta property="og:type" content="profile" />
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Hafiz Aqib Sattar",
+  "jobTitle": "Research Assistant",
+  "affiliation": { "@type": "Organization", "name": "Norfolk State University" },
+  "email": "h.aqibsattar@gmail.com",
+  "telephone": "202-766-5067",
+  "knowsAbout": ["Digital Media", "AI and Media", "Communications", "International Relations"],
+  "alumniOf": [
+    { "@type": "EducationalOrganization", "name": "Norfolk State University" },
+    { "@type": "EducationalOrganization", "name": "National Defence University, Islamabad" }
+  ]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --navy: #0f2244;
+    --navy-mid: #1a3560;
+    --navy-light: #2d4f85;
+    --gold: #b8922a;
+    --gold-light: #d4a83a;
+    --gold-pale: #f7f0e0;
+    --cream: #faf8f4;
+    --white: #ffffff;
+    --slate: #f1f3f7;
+    --text-dark: #0f1923;
+    --text-mid: #3a4a5c;
+    --text-muted: #6b7d93;
+    --text-light: #9aacbf;
+    --border: #e2e8f0;
+    --border-strong: #c8d4e4;
+    --radius-sm: 6px;
+    --radius-md: 12px;
+    --radius-lg: 20px;
+    --shadow-sm: 0 1px 4px rgba(15,34,68,0.06);
+    --shadow-md: 0 4px 16px rgba(15,34,68,0.10);
+    --shadow-lg: 0 8px 32px rgba(15,34,68,0.14);
+  }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: 'Inter', sans-serif;
+    background: var(--cream);
+    color: var(--text-dark);
+    line-height: 1.7;
+    font-size: 16px;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: 'Playfair Display', serif;
+    line-height: 1.25;
+    color: var(--navy);
+  }
+
+  /* NAV */
+  nav {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 100;
+    background: rgba(250,248,244,0.92);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--border);
+    padding: 0 2rem;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .nav-logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--navy);
+    letter-spacing: -0.02em;
+    text-decoration: none;
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+  }
+
+  .nav-links a {
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: var(--text-mid);
+    text-decoration: none;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    transition: color 0.2s;
+  }
+
+  .nav-links a:hover { color: var(--navy); }
+
+  .nav-cta {
+    background: var(--navy) !important;
+    color: var(--white) !important;
+    padding: 0.45rem 1.1rem;
+    border-radius: var(--radius-sm);
+  }
+
+  /* HERO */
+  #hero {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 100px 6vw 60px;
+    gap: 4rem;
+    background: linear-gradient(135deg, var(--navy) 0%, var(--navy-mid) 60%, var(--navy-light) 100%);
+    position: relative;
+    overflow: hidden;
+  }
+
+  #hero::before {
+    content: '';
+    position: absolute;
+    top: -120px; right: -120px;
+    width: 500px; height: 500px;
+    border-radius: 50%;
+    background: rgba(184,146,42,0.08);
+    pointer-events: none;
+  }
+
+  #hero::after {
+    content: '';
+    position: absolute;
+    bottom: -80px; left: 20%;
+    width: 300px; height: 300px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.04);
+    pointer-events: none;
+  }
+
+  .hero-text { position: relative; z-index: 2; }
+
+  .hero-eyebrow {
+    display: inline-block;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--gold-light);
+    background: rgba(184,146,42,0.15);
+    border: 1px solid rgba(184,146,42,0.3);
+    padding: 0.35rem 0.9rem;
+    border-radius: 100px;
+    margin-bottom: 1.5rem;
+  }
+
+  .hero-name {
+    font-size: clamp(2.4rem, 4vw, 3.4rem);
+    font-weight: 700;
+    color: var(--white);
+    letter-spacing: -0.02em;
+    margin-bottom: 1rem;
+    line-height: 1.1;
+  }
+
+  .hero-name span { color: var(--gold-light); }
+
+  .hero-tagline {
+    font-size: 1.05rem;
+    color: rgba(255,255,255,0.75);
+    font-weight: 300;
+    line-height: 1.7;
+    max-width: 480px;
+    margin-bottom: 2rem;
+  }
+
+  .hero-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .hero-badge {
+    font-size: 0.78rem;
+    font-weight: 500;
+    color: rgba(255,255,255,0.8);
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(255,255,255,0.15);
+    padding: 0.3rem 0.8rem;
+    border-radius: 100px;
+  }
+
+  .hero-actions { display: flex; gap: 1rem; flex-wrap: wrap; }
+
+  .btn-primary {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: var(--gold);
+    color: var(--white);
+    font-weight: 600;
+    font-size: 0.9rem;
+    padding: 0.8rem 1.8rem;
+    border-radius: var(--radius-sm);
+    text-decoration: none;
+    transition: background 0.2s, transform 0.15s;
+    letter-spacing: 0.02em;
+  }
+
+  .btn-primary:hover { background: var(--gold-light); transform: translateY(-1px); }
+
+  .btn-outline {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: transparent;
+    color: rgba(255,255,255,0.85);
+    font-weight: 500;
+    font-size: 0.9rem;
+    padding: 0.8rem 1.8rem;
+    border-radius: var(--radius-sm);
+    border: 1px solid rgba(255,255,255,0.3);
+    text-decoration: none;
+    transition: background 0.2s, border-color 0.2s;
+  }
+
+  .btn-outline:hover { background: rgba(255,255,255,0.08); border-color: rgba(255,255,255,0.5); }
+
+  /* HERO STATS */
+  .hero-visual { position: relative; z-index: 2; }
+
+  .scholar-card {
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.12);
+    border-radius: var(--radius-lg);
+    padding: 2rem;
+    backdrop-filter: blur(8px);
+  }
+
+  .scholar-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.8rem;
+    padding-bottom: 1.2rem;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+  }
+
+  .scholar-avatar {
+    width: 52px; height: 52px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--gold), var(--gold-light));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--white);
+    flex-shrink: 0;
+  }
+
+  .scholar-info p:first-child {
+    font-family: 'Playfair Display', serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--white);
+  }
+
+  .scholar-info p:last-child {
+    font-size: 0.8rem;
+    color: rgba(255,255,255,0.55);
+  }
+
+  .scholar-stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .stat-box {
+    text-align: center;
+    padding: 1rem 0.5rem;
+    background: rgba(255,255,255,0.04);
+    border-radius: var(--radius-sm);
+    border: 1px solid rgba(255,255,255,0.08);
+  }
+
+  .stat-number {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--gold-light);
+    display: block;
+  }
+
+  .stat-label {
+    font-size: 0.72rem;
+    color: rgba(255,255,255,0.5);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+
+  .scholar-papers { display: flex; flex-direction: column; gap: 0.6rem; }
+
+  .mini-paper {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.7rem 0.9rem;
+    background: rgba(255,255,255,0.04);
+    border-radius: var(--radius-sm);
+    border-left: 2px solid var(--gold);
+  }
+
+  .mini-paper-year {
+    font-size: 0.72rem;
+    color: var(--gold-light);
+    font-weight: 600;
+    white-space: nowrap;
+  }
+
+  .mini-paper-title {
+    font-size: 0.78rem;
+    color: rgba(255,255,255,0.7);
+    line-height: 1.4;
+  }
+
+  /* SECTIONS */
+  section { padding: 5rem 6vw; }
+
+  .section-label {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 0.75rem;
+  }
+
+  .section-label::before {
+    content: '';
+    display: block;
+    width: 24px;
+    height: 2px;
+    background: var(--gold);
+    border-radius: 2px;
+  }
+
+  .section-title {
+    font-size: clamp(1.8rem, 3vw, 2.5rem);
+    font-weight: 700;
+    color: var(--navy);
+    letter-spacing: -0.02em;
+    margin-bottom: 1rem;
+  }
+
+  .section-subtitle {
+    font-size: 1rem;
+    color: var(--text-muted);
+    max-width: 560px;
+    margin-bottom: 3rem;
+    line-height: 1.7;
+  }
+
+  /* EDUCATION */
+  #education { background: var(--white); }
+
+  .edu-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; }
+
+  .edu-card {
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+    padding: 2rem;
+    background: var(--cream);
+    position: relative;
+    overflow: hidden;
+    transition: box-shadow 0.2s;
+  }
+
+  .edu-card:hover { box-shadow: var(--shadow-md); }
+
+  .edu-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    width: 4px; height: 100%;
+    background: linear-gradient(180deg, var(--gold), var(--navy-light));
+  }
+
+  .edu-degree {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--navy);
+    margin-bottom: 0.3rem;
+  }
+
+  .edu-school {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--navy-light);
+    margin-bottom: 0.25rem;
+  }
+
+  .edu-year {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    margin-bottom: 1rem;
+  }
+
+  .edu-coursework {
+    font-size: 0.82rem;
+    color: var(--text-mid);
+    margin-bottom: 1rem;
+  }
+
+  .edu-thesis {
+    background: var(--gold-pale);
+    border: 1px solid rgba(184,146,42,0.2);
+    border-radius: var(--radius-sm);
+    padding: 0.9rem 1rem;
+    font-size: 0.82rem;
+    color: var(--text-mid);
+    line-height: 1.6;
+  }
+
+  .edu-thesis strong { color: var(--navy); font-family: 'Playfair Display', serif; }
+
+  /* EXPERIENCE TIMELINE */
+  #experience { background: var(--cream); }
+
+  .timeline { position: relative; padding-left: 2rem; }
+
+  .timeline::before {
+    content: '';
+    position: absolute;
+    left: 0; top: 8px; bottom: 0;
+    width: 2px;
+    background: linear-gradient(180deg, var(--gold) 0%, var(--border) 100%);
+  }
+
+  .timeline-item {
+    position: relative;
+    margin-bottom: 2.5rem;
+    padding-left: 1.5rem;
+  }
+
+  .timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -2.35rem;
+    top: 6px;
+    width: 14px; height: 14px;
+    border-radius: 50%;
+    background: var(--white);
+    border: 3px solid var(--gold);
+  }
+
+  .timeline-meta {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+    margin-bottom: 0.5rem;
+  }
+
+  .timeline-date {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--gold);
+    letter-spacing: 0.06em;
+    background: var(--gold-pale);
+    border: 1px solid rgba(184,146,42,0.2);
+    padding: 0.2rem 0.65rem;
+    border-radius: 100px;
+    white-space: nowrap;
+  }
+
+  .timeline-org {
+    font-size: 0.78rem;
+    color: var(--text-muted);
+    font-weight: 500;
+  }
+
+  .timeline-role {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: var(--navy);
+    margin-bottom: 0.4rem;
+  }
+
+  .timeline-bullets {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+
+  .timeline-bullets li {
+    font-size: 0.88rem;
+    color: var(--text-mid);
+    padding-left: 1rem;
+    position: relative;
+  }
+
+  .timeline-bullets li::before {
+    content: '–';
+    position: absolute;
+    left: 0;
+    color: var(--gold);
+  }
+
+  /* PUBLICATIONS */
+  #publications { background: var(--white); }
+
+  .pub-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1.5rem; }
+
+  .pub-card {
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+    padding: 1.5rem;
+    background: var(--cream);
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    transition: box-shadow 0.2s, transform 0.2s;
+  }
+
+  .pub-card:hover { box-shadow: var(--shadow-md); transform: translateY(-2px); }
+
+  .pub-meta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+  }
+
+  .pub-year {
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: var(--gold);
+    background: var(--gold-pale);
+    border: 1px solid rgba(184,146,42,0.2);
+    padding: 0.2rem 0.6rem;
+    border-radius: 100px;
+  }
+
+  .pub-cited {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--navy-light);
+    background: rgba(45,79,133,0.08);
+    border: 1px solid rgba(45,79,133,0.15);
+    padding: 0.2rem 0.6rem;
+    border-radius: 100px;
+  }
+
+  .pub-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--navy);
+    line-height: 1.4;
+  }
+
+  .pub-authors {
+    font-size: 0.78rem;
+    color: var(--text-muted);
+  }
+
+  .pub-journal {
+    font-size: 0.78rem;
+    color: var(--navy-light);
+    font-style: italic;
+    font-weight: 500;
+  }
+
+  .pub-tag {
+    display: inline-block;
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: #0d6e3f;
+    background: #e6f7ef;
+    border: 1px solid #a7dfc3;
+    padding: 0.15rem 0.55rem;
+    border-radius: 100px;
+    align-self: flex-start;
+  }
+
+  /* OPEDS */
+  #opeds { background: var(--cream); }
+
+  .oped-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 1rem;
+  }
+
+  .oped-card {
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+    padding: 1.2rem 1.4rem;
+    background: var(--white);
+    display: flex;
+    align-items: flex-start;
+    gap: 0.85rem;
+    transition: box-shadow 0.2s;
+  }
+
+  .oped-card:hover { box-shadow: var(--shadow-sm); }
+
+  .oped-icon {
+    width: 36px; height: 36px;
+    border-radius: var(--radius-sm);
+    background: var(--navy);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: var(--gold-light);
+    font-family: 'Playfair Display', serif;
+  }
+
+  .oped-title {
+    font-size: 0.88rem;
+    font-weight: 500;
+    color: var(--navy);
+    line-height: 1.4;
+    margin-bottom: 0.2rem;
+  }
+
+  .oped-date {
+    font-size: 0.72rem;
+    color: var(--text-muted);
+  }
+
+  /* AWARDS & LANGUAGES */
+  #awards-languages {
+    background: var(--white);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: start;
+    padding: 5rem 6vw;
+  }
+
+  .award-card {
+    background: linear-gradient(135deg, var(--navy) 0%, var(--navy-mid) 100%);
+    border-radius: var(--radius-md);
+    padding: 2rem;
+    color: var(--white);
+    margin-bottom: 1rem;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .award-card::after {
+    content: '★';
+    position: absolute;
+    right: 1.5rem;
+    top: 1.5rem;
+    font-size: 2.5rem;
+    color: rgba(184,146,42,0.3);
+  }
+
+  .award-year {
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--gold-light);
+    margin-bottom: 0.4rem;
+  }
+
+  .award-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--white);
+    margin-bottom: 0.25rem;
+  }
+
+  .award-org {
+    font-size: 0.8rem;
+    color: rgba(255,255,255,0.6);
+  }
+
+  .lang-grid { display: flex; flex-direction: column; gap: 0.75rem; }
+
+  .lang-item {
+    display: grid;
+    grid-template-columns: 120px 1fr auto;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .lang-name {
+    font-size: 0.88rem;
+    font-weight: 600;
+    color: var(--navy);
+  }
+
+  .lang-bar-bg {
+    height: 6px;
+    background: var(--border);
+    border-radius: 100px;
+    overflow: hidden;
+  }
+
+  .lang-bar {
+    height: 100%;
+    border-radius: 100px;
+    background: linear-gradient(90deg, var(--navy), var(--navy-light));
+  }
+
+  .lang-level {
+    font-size: 0.72rem;
+    font-weight: 600;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    white-space: nowrap;
+  }
+
+  /* CONTACT */
+  #contact {
+    background: linear-gradient(135deg, var(--navy) 0%, var(--navy-mid) 100%);
+    padding: 5rem 6vw;
+    color: var(--white);
+  }
+
+  .contact-grid { display: grid; grid-template-columns: 1fr 1.4fr; gap: 4rem; align-items: start; }
+
+  .contact-info-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgba(255,255,255,0.5);
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    font-size: 0.72rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .contact-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--white);
+    line-height: 1.2;
+    margin-bottom: 0.75rem;
+  }
+
+  .contact-tagline {
+    font-size: 0.9rem;
+    color: rgba(255,255,255,0.6);
+    margin-bottom: 2.5rem;
+    line-height: 1.6;
+  }
+
+  .contact-links { display: flex; flex-direction: column; gap: 1rem; margin-bottom: 2.5rem; }
+
+  .contact-link-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    text-decoration: none;
+    transition: opacity 0.2s;
+  }
+
+  .contact-link-item:hover { opacity: 0.8; }
+
+  .contact-link-icon {
+    width: 44px; height: 44px;
+    border-radius: var(--radius-sm);
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(255,255,255,0.12);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+
+  .contact-link-icon svg { width: 18px; height: 18px; fill: var(--gold-light); }
+
+  .contact-link-text p:first-child {
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.45);
+    margin-bottom: 0.1rem;
+  }
+
+  .contact-link-text p:last-child {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--white);
+  }
+
+  .gmail-btn {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    background: var(--gold);
+    color: var(--white);
+    font-weight: 700;
+    font-size: 0.9rem;
+    padding: 0.9rem 1.4rem;
+    border-radius: var(--radius-sm);
+    text-decoration: none;
+    transition: background 0.2s;
+    margin-top: 0.5rem;
+  }
+
+  .gmail-btn:hover { background: var(--gold-light); }
+
+  .gmail-btn svg { width: 20px; height: 20px; fill: var(--white); flex-shrink: 0; }
+
+  /* CONTACT FORM */
+  .contact-form { display: flex; flex-direction: column; gap: 1.2rem; }
+
+  .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+
+  .form-group { position: relative; }
+
+  .form-group label {
+    display: block;
+    font-size: 0.78rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.5);
+    margin-bottom: 0.5rem;
+  }
+
+  .form-group input,
+  .form-group textarea,
+  .form-group select {
+    width: 100%;
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.15);
+    border-radius: var(--radius-sm);
+    padding: 0.85rem 1rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9rem;
+    color: var(--white);
+    outline: none;
+    transition: border-color 0.2s, background 0.2s;
+  }
+
+  .form-group input::placeholder,
+  .form-group textarea::placeholder {
+    color: rgba(255,255,255,0.3);
+  }
+
+  .form-group input:focus,
+  .form-group textarea:focus {
+    border-color: var(--gold-light);
+    background: rgba(255,255,255,0.09);
+  }
+
+  .form-group textarea {
+    min-height: 180px;
+    resize: vertical;
+    line-height: 1.6;
+  }
+
+  .form-submit {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    background: var(--gold);
+    color: var(--white);
+    font-family: 'Inter', sans-serif;
+    font-size: 0.95rem;
+    font-weight: 700;
+    padding: 1rem 2rem;
+    border-radius: var(--radius-sm);
+    border: none;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.15s;
+    align-self: flex-start;
+  }
+
+  .form-submit:hover { background: var(--gold-light); transform: translateY(-1px); }
+
+  .form-submit svg { width: 18px; height: 18px; fill: var(--white); }
+
+  /* FOOTER */
+  footer {
+    background: var(--navy);
+    border-top: 1px solid rgba(255,255,255,0.06);
+    padding: 2rem 6vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .footer-left {
+    font-family: 'Playfair Display', serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: rgba(255,255,255,0.7);
+  }
+
+  .footer-right {
+    font-size: 0.78rem;
+    color: rgba(255,255,255,0.35);
+  }
+
+  /* RESPONSIVE */
+  @media (max-width: 900px) {
+    #hero { grid-template-columns: 1fr; gap: 2.5rem; padding: 88px 5vw 4rem; }
+    .edu-grid, .contact-grid, #awards-languages { grid-template-columns: 1fr; gap: 2rem; }
+    .nav-links { display: none; }
+    #awards-languages { padding: 4rem 5vw; }
+    .form-row { grid-template-columns: 1fr; }
+  }
+
+  @media (max-width: 600px) {
+    section { padding: 3.5rem 5vw; }
+    .pub-grid, .oped-grid { grid-template-columns: 1fr; }
+    .hero-name { font-size: 2rem; }
+  }
+
+  /* Animations */
+  @media (prefers-reduced-motion: no-preference) {
+    .fade-up {
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 0.6s ease, transform 0.6s ease;
+    }
+    .fade-up.visible { opacity: 1; transform: translateY(0); }
+  }
+
+  /* MOBILE HAMBURGER BUTTON */
+  .nav-hamburger {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width: 40px;
+    height: 40px;
+    background: none;
+    border: 1px solid var(--border-strong);
+    border-radius: var(--radius-sm);
+    cursor: pointer;
+    padding: 0;
+    flex-shrink: 0;
+  }
+
+  .nav-hamburger span {
+    display: block;
+    width: 18px;
+    height: 2px;
+    background: var(--navy);
+    border-radius: 2px;
+    transition: transform 0.3s, opacity 0.3s;
+  }
+
+  .nav-hamburger.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+  .nav-hamburger.open span:nth-child(2) { opacity: 0; }
+  .nav-hamburger.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+  /* MOBILE DRAWER OVERLAY */
+  .nav-drawer-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(15,34,68,0.45);
+    z-index: 98;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+
+  .nav-drawer-overlay.active {
+    display: block;
+    opacity: 1;
+  }
+
+  /* MOBILE DRAWER PANEL */
+  .nav-drawer {
+    position: fixed;
+    top: 0; right: 0;
+    width: min(320px, 88vw);
+    height: 100vh;
+    background: var(--white);
+    z-index: 99;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    transform: translateX(100%);
+    transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: -8px 0 40px rgba(15,34,68,0.18);
+    overflow-y: auto;
+  }
+
+  .nav-drawer.open { transform: translateX(0); }
+
+  .drawer-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.1rem 1.5rem;
+    border-bottom: 1px solid var(--border);
+    position: sticky;
+    top: 0;
+    background: var(--white);
+    z-index: 2;
+  }
+
+  .drawer-logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--navy);
+    text-decoration: none;
+  }
+
+  .drawer-close {
+    width: 36px; height: 36px;
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    background: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-mid);
+    font-size: 1.2rem;
+    line-height: 1;
+  }
+
+  .drawer-nav {
+    list-style: none;
+    padding: 1rem 0;
+    flex: 1;
+  }
+
+  .drawer-nav li a {
+    display: block;
+    padding: 0.9rem 1.5rem;
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: var(--text-mid);
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    border-bottom: 1px solid var(--border);
+    transition: background 0.15s, color 0.15s;
+  }
+
+  .drawer-nav li:last-child a {
+    margin: 1rem 1.5rem 0;
+    background: var(--navy);
+    color: var(--white);
+    border-radius: var(--radius-sm);
+    border: none;
+    text-align: center;
+    padding: 0.85rem;
+  }
+
+  .drawer-nav li a:hover { background: var(--cream); color: var(--navy); }
+  .drawer-nav li:last-child a:hover { background: var(--navy-light); }
+
+  .drawer-footer {
+    padding: 1.5rem;
+    border-top: 1px solid var(--border);
+    font-size: 0.78rem;
+    color: var(--text-muted);
+  }
+
+  @media (max-width: 900px) {
+    .nav-hamburger { display: flex; }
+  }
+
+  /* FORM STATES */
+  .form-submit:disabled {
+    opacity: 0.65;
+    cursor: not-allowed;
+    transform: none !important;
+  }
+
+  /* TOAST NOTIFICATION */
+  #form-toast {
+    position: fixed;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%) translateY(20px);
+    z-index: 999;
+    padding: 1rem 1.5rem;
+    border-radius: var(--radius-md);
+    font-size: 0.9rem;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s, transform 0.3s;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    max-width: 90vw;
+    white-space: nowrap;
+  }
+
+  #form-toast.show {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+
+  #form-toast.success {
+    background: #0d6e3f;
+    color: #e6f7ef;
+    border: 1px solid #1a9e5a;
+  }
+
+  #form-toast.error {
+    background: #7c1f1f;
+    color: #fce8e8;
+    border: 1px solid #c94040;
+  }
+
+  /* Extra responsive for contact grid on small screens */
+  @media (max-width: 500px) {
+    .contact-grid { gap: 2.5rem; }
+    .gmail-btn { font-size: 0.78rem; padding: 0.8rem 1rem; word-break: break-all; white-space: normal; }
+    .lang-item { grid-template-columns: 90px 1fr auto; }
+    .award-card { padding: 1.4rem; }
+  }
+
+  /* ── Formspree SDK feedback styles ── */
+
+  /* Hide banners by default; the SDK reveals them via aria-hidden / display */
+  [data-fs-success],
+  [data-fs-error] { display: none; }
+
+  /* Styled banners that appear after submission */
+  .fs-banner {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 1rem 1.2rem;
+    border-radius: var(--radius-sm);
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-bottom: 1.2rem;
+    line-height: 1.5;
+  }
+
+  .fs-banner--success {
+    background: rgba(13,110,63,0.18);
+    border: 1px solid rgba(13,110,63,0.4);
+    color: #7dffc0;
+  }
+
+  .fs-banner--error {
+    background: rgba(200,50,50,0.18);
+    border: 1px solid rgba(200,50,50,0.4);
+    color: #ffb3b3;
+  }
+
+  /* Field-level error text under each input */
+  .fs-field-error {
+    display: block;
+    margin-top: 0.35rem;
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: #ff9999;
+    min-height: 1em;
+  }
+
+  /* Highlight invalid fields (set by the SDK via aria-invalid) */
+  .form-group input[aria-invalid="true"],
+  .form-group textarea[aria-invalid="true"] {
+    border-color: rgba(220, 80, 80, 0.7);
+    background: rgba(220, 80, 80, 0.06);
+  }
+
+  /* Button disabled state while submitting */
+  [data-fs-submit-btn]:disabled {
+    opacity: 0.65;
+    cursor: not-allowed;
+    transform: none !important;
+  }
+</style>
+</head>
+<body>
+
+<!-- NAVIGATION -->
+<nav aria-label="Site navigation">
+  <a href="#hero" class="nav-logo">Hafiz Aqib Sattar</a>
+  <ul class="nav-links">
+    <li><a href="#education">Education</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#publications">Research</a></li>
+    <li><a href="#opeds">Writing</a></li>
+    <li><a href="#contact" class="nav-cta">Contact</a></li>
+  </ul>
+  <button class="nav-hamburger" id="hamburgerBtn" aria-label="Open navigation menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- MOBILE DRAWER OVERLAY -->
+<div class="nav-drawer-overlay" id="drawerOverlay" aria-hidden="true"></div>
+
+<!-- MOBILE DRAWER PANEL -->
+<aside class="nav-drawer" id="navDrawer" aria-label="Mobile navigation" role="dialog" aria-modal="true">
+  <div class="drawer-header">
+    <a href="#hero" class="drawer-logo" id="drawerLogoLink">Hafiz Aqib Sattar</a>
+    <button class="drawer-close" id="drawerCloseBtn" aria-label="Close menu">&#x2715;</button>
+  </div>
+  <ul class="drawer-nav">
+    <li><a href="#education" class="drawer-link">Education</a></li>
+    <li><a href="#experience" class="drawer-link">Experience</a></li>
+    <li><a href="#publications" class="drawer-link">Research</a></li>
+    <li><a href="#opeds" class="drawer-link">Writing</a></li>
+    <li><a href="#contact" class="drawer-link">Contact</a></li>
+  </ul>
+  <div class="drawer-footer">
+    Research Assistant · Norfolk State University<br>Newport News, VA 23601
+  </div>
+</aside>
+
+<!-- TOAST NOTIFICATION -->
+<div id="form-toast" role="alert" aria-live="polite"></div>
+
+<!-- HERO -->
+<header id="hero" role="banner">
+  <div class="hero-text">
+    <span class="hero-eyebrow">Media &amp; Communications Scholar</span>
+    <h1 class="hero-name">Hafiz<br><span>Aqib Sattar</span></h1>
+    <p class="hero-tagline">Research-driven media and communication professional focused on digital media, AI, and public discourse.</p>
+    <div class="hero-badges">
+      <span class="hero-badge">Digital Media</span>
+      <span class="hero-badge">AI &amp; Journalism</span>
+      <span class="hero-badge">Communications</span>
+      <span class="hero-badge">International Relations</span>
+      <span class="hero-badge">Norfolk State University</span>
+    </div>
+    <div class="hero-actions">
+      <a href="#contact" class="btn-primary">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        Get in touch
+      </a>
+      <a href="#publications" class="btn-outline">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+        View research
+      </a>
+    </div>
+  </div>
+
+  <div class="hero-visual" aria-label="Google Scholar metrics">
+    <div class="scholar-card">
+      <div class="scholar-header">
+        <div class="scholar-avatar" aria-hidden="true">HAS</div>
+        <div class="scholar-info">
+          <p>Google Scholar Profile</p>
+          <p>Norfolk State University · spartans.nsu.edu</p>
+        </div>
+      </div>
+      <div class="scholar-stats">
+        <div class="stat-box">
+          <span class="stat-number">7</span>
+          <span class="stat-label">Citations</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-number">2</span>
+          <span class="stat-label">h-index</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-number">5+</span>
+          <span class="stat-label">Papers</span>
+        </div>
+      </div>
+      <div class="scholar-papers">
+        <div class="mini-paper">
+          <span class="mini-paper-year">2024 · 4 cites</span>
+          <span class="mini-paper-title">Generative AI and the Media Industries</span>
+        </div>
+        <div class="mini-paper">
+          <span class="mini-paper-year">2025 · 3 cites</span>
+          <span class="mini-paper-title">Digital Divide in Pakistan: Role of Media</span>
+        </div>
+        <div class="mini-paper">
+          <span class="mini-paper-year">2025</span>
+          <span class="mini-paper-title">AI-Enabled Media Advancement</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- EDUCATION -->
+<section id="education" aria-labelledby="edu-heading">
+  <div class="section-label">Academic Background</div>
+  <h2 class="section-title" id="edu-heading">Education &amp; Honors</h2>
+  <p class="section-subtitle">Rigorous academic training spanning media communications, international affairs, and policy research across two continents.</p>
+
+  <div class="edu-grid fade-up">
+    <article class="edu-card">
+      <div class="edu-degree">Master of Arts — Media &amp; Communications</div>
+      <div class="edu-school">Norfolk State University, Virginia</div>
+      <div class="edu-year">Graduated December 2025</div>
+      <p class="edu-coursework"><strong>Coursework:</strong> Media Research · Media Theory · Media Law · Global Media · Specialized Writings</p>
+      <div class="edu-thesis">
+        <strong>Honors Thesis:</strong> "Weapons of Mass Distraction: Depoliticization Through Social Media in Pakistan" — Advised by Dr. William B. Hart, Professor &amp; Department Chair, Mass Communication and Journalism
+      </div>
+    </article>
+
+    <article class="edu-card">
+      <div class="edu-degree">Bachelor of Science — International Relations</div>
+      <div class="edu-school">National Defence University, Islamabad, Pakistan</div>
+      <div class="edu-year">Graduated September 2020</div>
+      <p class="edu-coursework"><strong>Coursework:</strong> International Relations Theory · International Political Economy · Environmental Politics · Strategic Studies · Research Methodology · US Foreign Policy · Middle Eastern Politics</p>
+    </article>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience" aria-labelledby="exp-heading">
+  <div class="section-label">Professional History</div>
+  <h2 class="section-title" id="exp-heading">Experience Timeline</h2>
+  <p class="section-subtitle">A decade of research, policy analysis, and communications work spanning academia, think tanks, and government institutions.</p>
+
+  <div class="timeline fade-up">
+    <article class="timeline-item">
+      <div class="timeline-meta">
+        <span class="timeline-date">Jan 2026 – Present</span>
+        <span class="timeline-org">Norfolk State University</span>
+      </div>
+      <div class="timeline-role">Research Assistant</div>
+      <ul class="timeline-bullets">
+        <li>Data collection, analysis, and literature review across ongoing research projects</li>
+        <li>Manage departmental social media platforms and digital content strategy</li>
+        <li>Support internal and external communications for academic initiatives</li>
+      </ul>
+    </article>
+
+    <article class="timeline-item">
+      <div class="timeline-meta">
+        <span class="timeline-date">Aug 2024 – Present</span>
+        <span class="timeline-org">Norfolk State University, Dept. of Mass Communication &amp; Journalism</span>
+      </div>
+      <div class="timeline-role">Graduate Assistant &amp; Assistant Director of Communications</div>
+      <ul class="timeline-bullets">
+        <li>Managed social media content for Instagram, Twitter, and Facebook</li>
+        <li>Assisted in developing new curricula and organizing departmental workshops, seminars, and conferences</li>
+        <li>Supported event planning for transfer and off-campus students</li>
+      </ul>
+    </article>
+
+    <article class="timeline-item">
+      <div class="timeline-meta">
+        <span class="timeline-date">Sep 2022 – Nov 2023</span>
+        <span class="timeline-org">Institute of Policy Studies, Islamabad</span>
+      </div>
+      <div class="timeline-role">Junior Research Officer</div>
+      <ul class="timeline-bullets">
+        <li>Analyzed the Kashmir issue from an International Humanitarian Law perspective</li>
+        <li>Wrote reports and policy briefs for newspapers</li>
+        <li>Monitored Indo-Pak rivalry through the South Asian Desk</li>
+        <li>Organized international conferences and seminars on emerging geopolitical issues</li>
+      </ul>
+    </article>
+
+    <article class="timeline-item">
+      <div class="timeline-meta">
+        <span class="timeline-date">Apr 2021 – Sep 2022</span>
+        <span class="timeline-org">Center for Global and Strategic Studies, Islamabad</span>
+      </div>
+      <div class="timeline-role">Research Assistant</div>
+      <ul class="timeline-bullets">
+        <li>Researched traditional and non-traditional security threats</li>
+        <li>Closely monitored the Af-Pak (Afghanistan–Pakistan) region</li>
+        <li>Assisted in qualitative report evaluation and academic journal writing</li>
+      </ul>
+    </article>
+
+    <article class="timeline-item">
+      <div class="timeline-meta">
+        <span class="timeline-date">Jun 2018 – Sep 2020</span>
+        <span class="timeline-org">National Assembly of Pakistan, Islamabad</span>
+      </div>
+      <div class="timeline-role">Research Assistant Intern</div>
+      <ul class="timeline-bullets">
+        <li>Worked in the Legislation branch on rules and procedures</li>
+        <li>Compiled reports on law and its implications in Pakistan</li>
+        <li>Monitored legislative processes in both houses of the National Assembly</li>
+      </ul>
+    </article>
+  </div>
+</section>
+
+<!-- PUBLICATIONS -->
+<section id="publications" aria-labelledby="pub-heading">
+  <div class="section-label">Peer-Reviewed Research</div>
+  <h2 class="section-title" id="pub-heading">Publications &amp; Research</h2>
+  <p class="section-subtitle">Peer-reviewed contributions to the fields of digital media, AI, communications, and international affairs — with 7 citations and an h-index of 2.</p>
+
+  <div class="pub-grid fade-up">
+    <article class="pub-card">
+      <div class="pub-meta">
+        <span class="pub-year">2024</span>
+        <span class="pub-cited">4 citations</span>
+      </div>
+      <h3 class="pub-title">Generative Artificial Intelligence and the Media Industries: Collective Consequences for Journalism, Advertising, and Public Relations</h3>
+      <p class="pub-authors">HA Sattar, A Ashraf, Z Hassan</p>
+      <p class="pub-journal">Journal of Computational Informatics &amp; Business, 2(2), 55–62</p>
+      <span class="pub-tag">Peer Reviewed</span>
+    </article>
+
+    <article class="pub-card">
+      <div class="pub-meta">
+        <span class="pub-year">2025</span>
+        <span class="pub-cited">3 citations</span>
+      </div>
+      <h3 class="pub-title">Assessing the Digital Divide and Its Implications in Pakistan: The Role of Media</h3>
+      <p class="pub-authors">MA Shams, HA Sattar, F Ahmad, U Shahid, B Bashir</p>
+      <p class="pub-journal">Journal of Media Horizons, 6(5), 720–744</p>
+      <span class="pub-tag">Peer Reviewed</span>
+    </article>
+
+    <article class="pub-card">
+      <div class="pub-meta">
+        <span class="pub-year">2025</span>
+      </div>
+      <h3 class="pub-title">AI-Enabled Media Advancement: Redefining Modern Journalism and Digital Communication</h3>
+      <p class="pub-authors">HA Sattar, W Hart</p>
+      <p class="pub-journal">The Critical Review of Social Sciences Studies, 3(4), 3259–3278</p>
+      <span class="pub-tag">Peer Reviewed</span>
+    </article>
+
+    <article class="pub-card">
+      <div class="pub-meta">
+        <span class="pub-year">2025</span>
+      </div>
+      <h3 class="pub-title">Interrogating India's Economic Potential: Genuine Boom or Global Allure</h3>
+      <p class="pub-authors">B Sultan, HA Sattar, A Ali, A Abbas</p>
+      <p class="pub-journal">Journal of Social Horizons, 2(3), 377–387</p>
+      <span class="pub-tag">Peer Reviewed</span>
+    </article>
+
+    <article class="pub-card">
+      <div class="pub-meta">
+        <span class="pub-year">2025</span>
+      </div>
+      <h3 class="pub-title">Redefining State and Society in Turkey: Erdogan's Illiberal Turkey</h3>
+      <p class="pub-authors">A Ali, U Farooq, HA Sattar</p>
+      <p class="pub-journal">Social Sciences Spectrum, 4(4), 441–454</p>
+      <span class="pub-tag">Peer Reviewed</span>
+    </article>
+
+    <article class="pub-card">
+      <div class="pub-meta">
+        <span class="pub-year">Under Review</span>
+      </div>
+      <h3 class="pub-title">Occupation and Human Rights Violations in Indian Occupied Kashmir: An International Humanitarian Law Perspective</h3>
+      <p class="pub-authors">HA Sattar</p>
+      <p class="pub-journal">Under peer review</p>
+    </article>
+  </div>
+</section>
+
+<!-- OP-EDS -->
+<section id="opeds" aria-labelledby="oped-heading">
+  <div class="section-label">Media Writing</div>
+  <h2 class="section-title" id="oped-heading">Op-Eds &amp; Articles</h2>
+  <p class="section-subtitle">Commentary and analysis on geopolitics, South Asian affairs, media, and international security, published across various outlets.</p>
+
+  <div class="oped-grid fade-up">
+    <article class="oped-card">
+      <div class="oped-icon" aria-hidden="true">Op</div>
+      <div>
+        <p class="oped-title">South Asia on the Edge: Modi's Populism and the Perils of Nuclear Brinkmanship</p>
+        <p class="oped-date">May 2025</p>
+      </div>
+    </article>
+    <article class="oped-card">
+      <div class="oped-icon" aria-hidden="true">Op</div>
+      <div>
+        <p class="oped-title">When Sports Become Political: The Decline of Cricket's Spirit in South Asia</p>
+        <p class="oped-date">September 2025</p>
+      </div>
+    </article>
+    <article class="oped-card">
+      <div class="oped-icon" aria-hidden="true">Op</div>
+      <div>
+        <p class="oped-title">A Fragile Peace, A Hopeful Beginning</p>
+        <p class="oped-date">October 2025</p>
+      </div>
+    </article>
+    <article class="oped-card">
+      <div class="oped-icon" aria-hidden="true">Op</div>
+      <div>
+        <p class="oped-title">Pakistan Elections: The People's Verdict</p>
+        <p class="oped-date">February 2024</p>
+      </div>
+    </article>
+    <article class="oped-card">
+      <div class="oped-icon" aria-hidden="true">Op</div>
+      <div>
+        <p class="oped-title">Pakistan: Deterrence and Non-Traditional Security</p>
+        <p class="oped-date">February 2021</p>
+      </div>
+    </article>
+    <article class="oped-card">
+      <div class="oped-icon" aria-hidden="true">Op</div>
+      <div>
+        <p class="oped-title">Hybrid Warfare Against Pakistan: Challenges and Response</p>
+        <p class="oped-date">March 2021</p>
+      </div>
+    </article>
+    <article class="oped-card">
+      <div class="oped-icon" aria-hidden="true">Op</div>
+      <div>
+        <p class="oped-title">Transition 2021: How Biden Is Likely to Approach the Middle East</p>
+        <p class="oped-date">February 2021</p>
+      </div>
+    </article>
+    <article class="oped-card">
+      <div class="oped-icon" aria-hidden="true">Op</div>
+      <div>
+        <p class="oped-title">India's Hybrid Warfare Against Pakistan: Challenges and Response</p>
+        <p class="oped-date">March 2021</p>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- AWARDS & LANGUAGES -->
+<section id="awards-languages" aria-labelledby="awards-heading">
+  <div>
+    <div class="section-label">Recognition</div>
+    <h2 class="section-title" id="awards-heading">Awards &amp; Grants</h2>
+    <br>
+    <div class="award-card">
+      <div class="award-year">2025</div>
+      <div class="award-name">Outstanding Research Student Award</div>
+      <div class="award-org">School of Graduate Studies and Research, Norfolk State University</div>
+    </div>
+    <div class="award-card">
+      <div class="award-year">2024</div>
+      <div class="award-name">Graduate Achievement Award</div>
+      <div class="award-org">Norfolk State University · $6,706.00</div>
+    </div>
+    <div class="award-card">
+      <div class="award-year">Ongoing</div>
+      <div class="award-name">Graduate / Departmental Scholarship</div>
+      <div class="award-org">Norfolk State University</div>
+    </div>
+  </div>
+
+  <div>
+    <div class="section-label">Multilingual</div>
+    <h2 class="section-title">Languages</h2>
+    <br>
+    <div class="lang-grid">
+      <div class="lang-item">
+        <span class="lang-name">English</span>
+        <div class="lang-bar-bg"><div class="lang-bar" style="width:100%"></div></div>
+        <span class="lang-level">Expert</span>
+      </div>
+      <div class="lang-item">
+        <span class="lang-name">Urdu</span>
+        <div class="lang-bar-bg"><div class="lang-bar" style="width:100%"></div></div>
+        <span class="lang-level">Expert</span>
+      </div>
+      <div class="lang-item">
+        <span class="lang-name">Punjabi</span>
+        <div class="lang-bar-bg"><div class="lang-bar" style="width:100%"></div></div>
+        <span class="lang-level">Expert</span>
+      </div>
+      <div class="lang-item">
+        <span class="lang-name">Saraiki</span>
+        <div class="lang-bar-bg"><div class="lang-bar" style="width:65%"></div></div>
+        <span class="lang-level">Intermediate</span>
+      </div>
+      <div class="lang-item">
+        <span class="lang-name">Hindi</span>
+        <div class="lang-bar-bg"><div class="lang-bar" style="width:65%"></div></div>
+        <span class="lang-level">Intermediate</span>
+      </div>
+      <div class="lang-item">
+        <span class="lang-name">Arabic</span>
+        <div class="lang-bar-bg"><div class="lang-bar" style="width:25%"></div></div>
+        <span class="lang-level">Beginner</span>
+      </div>
+      <div class="lang-item">
+        <span class="lang-name">Pashto</span>
+        <div class="lang-bar-bg"><div class="lang-bar" style="width:25%"></div></div>
+        <span class="lang-level">Beginner</span>
+      </div>
+      <div class="lang-item">
+        <span class="lang-name">Dari</span>
+        <div class="lang-bar-bg"><div class="lang-bar" style="width:20%"></div></div>
+        <span class="lang-level">Beginner</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" aria-labelledby="contact-heading">
+  <div class="section-label" style="color: var(--gold-light);">Let's Connect</div>
+  <h2 class="section-title" id="contact-heading" style="color: var(--white); margin-bottom: 3rem;">Get in touch</h2>
+
+  <div class="contact-grid">
+    <div>
+      <p class="contact-info-title">Contact Information</p>
+      <h3 class="contact-name">Hafiz Aqib Sattar</h3>
+      <p class="contact-tagline">Open to research collaborations, academic opportunities, and media/communications consultations.</p>
+
+      <div class="contact-links">
+        <a href="mailto:h.aqibsattar@gmail.com" class="contact-link-item" aria-label="Email Hafiz Aqib Sattar">
+          <div class="contact-link-icon">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6" fill="none" stroke="#d4a83a" stroke-width="2" stroke-linecap="round"/></svg>
+          </div>
+          <div class="contact-link-text">
+            <p>Email</p>
+            <p>h.aqibsattar@gmail.com</p>
+          </div>
+        </a>
+
+        <a href="tel:2027665067" class="contact-link-item" aria-label="Call Hafiz Aqib Sattar">
+          <div class="contact-link-icon">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.27h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.91a16 16 0 0 0 6 6l.91-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.73 16.92z" fill="none" stroke="#d4a83a" stroke-width="2" stroke-linecap="round"/></svg>
+          </div>
+          <div class="contact-link-text">
+            <p>Phone</p>
+            <p>202-766-5067</p>
+          </div>
+        </a>
+
+        <div class="contact-link-item" style="cursor: default;">
+          <div class="contact-link-icon">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" fill="none" stroke="#d4a83a" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="10" r="3" fill="none" stroke="#d4a83a" stroke-width="2"/></svg>
+          </div>
+          <div class="contact-link-text">
+            <p>Location</p>
+            <p>Newport News, VA 23601</p>
+          </div>
+        </div>
+      </div>
+
+      <a href="mailto:h.aqibsattar@gmail.com" class="gmail-btn" aria-label="Open Gmail to email Hafiz Aqib Sattar">
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+        Email via Gmail · h.aqibsattar@gmail.com
+      </a>
+    </div>
+
+    <!-- Formspree success / error banners (hidden until submission) -->
+    <div data-fs-success class="fs-banner fs-banner--success" aria-live="polite">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg>
+      Message sent! Hafiz will be in touch soon.
+    </div>
+    <div data-fs-error class="fs-banner fs-banner--error" aria-live="polite">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+      <span data-fs-error></span>
+    </div>
+
+    <form class="contact-form" id="contactForm" novalidate aria-label="Contact form">
+      <input type="hidden" name="_subject" value="New message from Portfolio — Hafiz Aqib Sattar" />
+      <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" />
+      <div class="form-row">
+        <div class="form-group">
+          <label for="contact-name">Your name</label>
+          <input type="text" id="contact-name" name="Sender Name" placeholder="Jane Smith" autocomplete="name" required data-fs-field />
+          <span class="fs-field-error" data-fs-error="Sender Name"></span>
+        </div>
+        <div class="form-group">
+          <label for="contact-email">Email address</label>
+          <input type="email" id="contact-email" name="Sender Email" placeholder="jane@example.com" autocomplete="email" required data-fs-field />
+          <span class="fs-field-error" data-fs-error="Sender Email"></span>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="contact-subject">Subject</label>
+        <input type="text" id="contact-subject" name="Subject" placeholder="Research collaboration, media inquiry, etc." required data-fs-field />
+        <span class="fs-field-error" data-fs-error="Subject"></span>
+      </div>
+
+      <div class="form-group">
+        <label for="contact-message">Your message</label>
+        <textarea id="contact-message" name="Message" placeholder="Share details about your inquiry, collaboration idea, or any questions you may have. The more context you provide, the better I can respond…" required data-fs-field></textarea>
+        <span class="fs-field-error" data-fs-error="Message"></span>
+      </div>
+
+      <button type="submit" class="form-submit" data-fs-submit-btn>
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><line x1="22" y1="2" x2="11" y2="13" stroke="white" stroke-width="2.5" stroke-linecap="round"/><polygon points="22 2 15 22 11 13 2 9 22 2" fill="white"/></svg>
+        Send message
+      </button>
+    </form>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <span class="footer-left">Hafiz Aqib Sattar</span>
+  <span class="footer-right">Research Assistant · Norfolk State University · Newport News, VA</span>
+</footer>
+
+<script>
+  /* ── Scroll-reveal ── */
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add('visible'); observer.unobserve(e.target); }
+    });
+  }, { threshold: 0.1 });
+  document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+
+  /* ── Mobile Drawer ── */
+  const hamburger = document.getElementById('hamburgerBtn');
+  const drawer = document.getElementById('navDrawer');
+  const overlay = document.getElementById('drawerOverlay');
+  const drawerClose = document.getElementById('drawerCloseBtn');
+  const drawerLinks = document.querySelectorAll('.drawer-link, #drawerLogoLink');
+
+  function openDrawer() {
+    drawer.classList.add('open');
+    overlay.classList.add('active');
+    hamburger.classList.add('open');
+    hamburger.setAttribute('aria-expanded', 'true');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeDrawer() {
+    drawer.classList.remove('open');
+    overlay.classList.remove('active');
+    hamburger.classList.remove('open');
+    hamburger.setAttribute('aria-expanded', 'false');
+    document.body.style.overflow = '';
+  }
+
+  hamburger.addEventListener('click', () => {
+    drawer.classList.contains('open') ? closeDrawer() : openDrawer();
+  });
+  drawerClose.addEventListener('click', closeDrawer);
+  overlay.addEventListener('click', closeDrawer);
+  drawerLinks.forEach(link => link.addEventListener('click', closeDrawer));
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') closeDrawer(); });
+
+  /* ── Formspree SDK init (runs after the @formspree/ajax script loads) ── */
+  window.formspree = window.formspree || function () {
+    (formspree.q = formspree.q || []).push(arguments);
+  };
+  formspree('initForm', { formElement: '#contactForm', formId: 'xdarzobn' });
+</script>
+
+<!-- Formspree AJAX library — handles submission, field errors, success state, button disabling -->
+<script src="https://unpkg.com/@formspree/ajax@1" defer></script>
+</body>
+</html>
